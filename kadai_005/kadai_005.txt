@@ -1,0 +1,53 @@
+nothing to commit (create/copy files and use "git add" to track)
+katayamacBookea:git_challenge daiki$ git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+katayamacBookea:git_challenge daiki$ echo "Hello World" > hello_world.txt
+katayamacBookea:git_challenge daiki$ git add hello_world.txt
+katayamacBookea:git_challenge daiki$ git commit -m"日本語訳を追記"
+[master (root-commit) c48d3b3] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+katayamacBookea:git_challenge daiki$ git add hello_world.txt
+katayamacBookea:git_challenge daiki$ git commit -m"hello_world.txtを追加"
+On branch master
+nothing to commit, working tree clean
+katayamacBookea:git_challenge daiki$ echo "Hello World" > hello_world.txt
+katayamacBookea:git_challenge daiki$  git add hello_world.txt
+katayamacBookea:git_challenge daiki$ git commit -m"hello_world.txtを追加"
+On branch master
+nothing to commit, working tree clean
+katayamacBookea:git_challenge daiki$ git status
+On branch master
+nothing to commit, working tree clean
+katayamacBookea:git_challenge daiki$ git log
+commit c48d3b395dfc655ca488ebfb59383fbfa921d8ed (HEAD -> master)
+Author: Daikingggg <daiki,k0518@gmail.com>
+Date:   Tue Sep 17 09:37:37 2024 +0900
+
+    日本語訳を追記
+katayamacBookea:git_challenge daiki$ git commit -m"hello_world.txtを追加"
+On branch master
+nothing to commit, working tree clean
+katayamacBookea:git_challenge daiki$ echo "Hello World 2" > hello_world.txt
+katayamacBookea:git_challenge daiki$ git add hello_world.txt
+katayamacBookea:git_challenge daiki$ git commit -m "Updated hello_world.txt"
+[master a22743b] Updated hello_world.txt
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+katayamacBookea:git_challenge daiki$  echo "Hello World 2" > hello_world.txt
+katayamacBookea:git_challenge daiki$ git add hello_world.txt
+katayamacBookea:git_challenge daiki$ git commit -m"hello_world.txtを追加"
+On branch master
+nothing to commit, working tree clean
+katayamacBookea:git_challenge daiki$ git log
+commit a22743b494fb648390b0ae1cee0dc48c969d1d86 (HEAD -> master)
+Author: Daikingggg <daiki,k0518@gmail.com>
+Date:   Tue Sep 17 10:07:31 2024 +0900
+
+    Updated hello_world.txt
+
+commit c48d3b395dfc655ca488ebfb59383fbfa921d8ed
+Author: Daikingggg <daiki,k0518@gmail.com>
+Date:   Tue Sep 17 09:37:37 2024 +0900
+
+    日本語訳を追記
+katayamacBookea:git_challenge daiki$ 
