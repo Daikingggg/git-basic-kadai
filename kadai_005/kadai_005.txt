@@ -1,0 +1,24 @@
+katayamacBookea:git_challenge daiki$ echo "Hello World3">hello_world.txt
+katayamacBookea:git_challenge daiki$ git add hello_world.txt
+katayamacBookea:git_challenge daiki$ git commit -m"hello_world.txtを追加"
+[master 0322a58] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-bash: echoHello wpe: command not found
+katayamacBookea:git_challenge daiki$ echo "Hello World4">hello_world.txt
+katayamacBookea:git_challenge daiki$ git add hello_world.txt
+katayamacBookea:git_challenge daiki$ git commit -m"日本語訳を追記"
+[master 2704eec] 日本語訳を追記
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+katayamacBookea:git_challenge daiki$ git log
+commit 2704eecd86499c6f17a338084b238ea7ac58efb9 (HEAD -> master)
+Author: Daikingggg <daiki,k0518@gmail.com>
+Date:   Tue Sep 17 14:43:01 2024 +0900
+
+    日本語訳を追記
+
+commit 0322a586785c953295423881e8c3d0fffc34803f
+Author: Daikingggg <daiki,k0518@gmail.com>
+Date:   Tue Sep 17 14:40:37 2024 +0900
+
+    hello_world.txtを追加
+
