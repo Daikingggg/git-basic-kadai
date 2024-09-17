@@ -27,3 +27,6 @@ commit 2704eecd86499c6f17a338084b238ea7ac58efb9 (HEAD -> master)
     日本語訳を追記
 commit 0322a586785c953295423881e8c3d0fffc34803f
     hello_world.txtを追加
+katayamacBookea:git_challenge daiki$ git log --oneline
+2704eec (HEAD -> master, feature) 日本語訳を追記
+0322a58 hello_world.txtを追加
